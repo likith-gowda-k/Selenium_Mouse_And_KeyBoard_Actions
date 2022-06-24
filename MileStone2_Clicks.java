@@ -24,7 +24,7 @@ public class MileStone2_Clicks {
 			actions.click(mouseButton).perform();
 			
 			Thread.sleep(2000);
-//			
+			
 			WebElement clickButton=driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[2]/div[6]/button/img"));
 			actions.click(clickButton).perform();
 			
